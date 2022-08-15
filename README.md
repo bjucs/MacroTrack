@@ -2,4 +2,4 @@
 
 ## Open-source macro tracker app in Swift
 
-Developed as a summer project by Brian Ju, free to modify/observe for all education, non-commercial use. 
+Being developed as a summer project by Brian Ju, free to modify/observe for all educational, non-commercial use. 
