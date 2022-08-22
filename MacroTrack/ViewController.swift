@@ -12,6 +12,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var date: UILabel!
     
+    @IBAction func trackButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "TrackSegue", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         date.text = getDate() 

@@ -16,6 +16,7 @@
 		C1356CB628A9F2560093D003 /* MacroTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1356CB528A9F2560093D003 /* MacroTrackTests.swift */; };
 		C1356CC028A9F2560093D003 /* MacroTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1356CBF28A9F2560093D003 /* MacroTrackUITests.swift */; };
 		C1356CC228A9F2560093D003 /* MacroTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1356CC128A9F2560093D003 /* MacroTrackUITestsLaunchTests.swift */; };
+		C1A69E4C28B43E88009A0AA5 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A69E4B28B43E88009A0AA5 /* TrackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C1356CBB28A9F2560093D003 /* MacroTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacroTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1356CBF28A9F2560093D003 /* MacroTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroTrackUITests.swift; sourceTree = "<group>"; };
 		C1356CC128A9F2560093D003 /* MacroTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C1A69E4B28B43E88009A0AA5 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C1356C9E28A9F2550093D003 /* AppDelegate.swift */,
 				C1356CA028A9F2550093D003 /* SceneDelegate.swift */,
 				C1356CA228A9F2550093D003 /* ViewController.swift */,
+				C1A69E4B28B43E88009A0AA5 /* TrackViewController.swift */,
 				C1356CA428A9F2550093D003 /* Main.storyboard */,
 				C1356CA728A9F2560093D003 /* Assets.xcassets */,
 				C1356CA928A9F2560093D003 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A69E4C28B43E88009A0AA5 /* TrackViewController.swift in Sources */,
 				C1356CA328A9F2550093D003 /* ViewController.swift in Sources */,
 				C1356C9F28A9F2550093D003 /* AppDelegate.swift in Sources */,
 				C1356CA128A9F2550093D003 /* SceneDelegate.swift in Sources */,
