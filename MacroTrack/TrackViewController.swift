@@ -9,6 +9,11 @@ import UIKit
 
 class TrackViewController: UIViewController {
 
+    
+    @IBAction func finishTrack(_ sender: Any) {
+        self.performSegue(withIdentifier: "ReturnSegue", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
