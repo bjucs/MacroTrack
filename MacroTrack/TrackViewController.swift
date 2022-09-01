@@ -10,6 +10,15 @@ import UIKit
 class TrackViewController: UIViewController {
 
     
+    
+    @IBOutlet weak var calorieField: UITextField!
+    @IBOutlet weak var carbField: UITextField!
+    @IBOutlet weak var fatsField: UITextField!
+    @IBOutlet weak var proteinField: UITextField!
+    
+    
+    
+    
     @IBAction func finishTrack(_ sender: Any) {
         self.performSegue(withIdentifier: "ReturnSegue", sender: self)
     }
