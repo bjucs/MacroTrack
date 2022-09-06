@@ -15,10 +15,10 @@ class TrackViewController: UIViewController {
     @IBOutlet weak var carbField: UITextField!
     @IBOutlet weak var fatsField: UITextField!
     @IBOutlet weak var proteinField: UITextField!
+    @IBOutlet weak var nameField: UITextField!
     
     
-    
-    
+    // When return button is pressed, perform segue
     @IBAction func finishTrack(_ sender: Any) {
         self.performSegue(withIdentifier: "ReturnSegue", sender: self)
     }
